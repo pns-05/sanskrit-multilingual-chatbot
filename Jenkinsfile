@@ -28,7 +28,7 @@ pipeline {
         stage('Docker Build') {
             steps {
                 echo 'Building Docker image...'
-                bat 'docker build -t sanskrit-multilingual-chatbot:latest .'
+                bat '"C:\\Users\\admin\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" build -t sanskrit-multilingual-chatbot:latest .'
             }
         }
 
