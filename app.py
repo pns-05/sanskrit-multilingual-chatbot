@@ -58,6 +58,9 @@ def chat():
         if "hello" in message or "hi" in message or "hey" in message:
             response = "Hello! How can I help you?"
 
+        elif "thanks" in message or "thank you" in message:
+            response = "You're welcome! I'm happy to help."
+
         elif "who are you" in message:
             response = "I am a simple multilingual computational chatbot."
 
